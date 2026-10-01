@@ -8,6 +8,10 @@ I separated development and evaluation seeds, froze policy configurations, and e
 
 The result challenged the hypothesis: the revised simulator policy completed 12.60% fewer tasks than the adaptive control. In program search, salary allocation achieved 41.50% correct-candidate discovery versus 47.25% for explore-commit. An exploratory equal-overhead simulation found a small milestone-salary gain, showing sensitivity to cost assumptions. I retained the negative results and recommended the simpler adaptive control pending real-workload evidence.
 
+## Research context
+
+The conceptual starting point is economic selection among agents, closely related to [Economy of Minds](https://arxiv.org/html/2606.02859v1). Adaptive compute-allocation research and budget-aware reasoning evaluation informed the choice of strong baselines and matched budgets. This project tests a simplified salary mechanism with fixed workers, conserved resources, and controlled verification. It does not reproduce those papers or claim that economic allocation itself is new. See the [README research comparison](README.md#research-inspiration-and-what-we-tested-differently) for the papers and the specific differences.
+
 ## Evidence and interpretation
 
 - [Simulator results](results/analysis.md): 11 frozen policies × 13 scenarios × 3 budgets × 200 evaluation seeds. The 200 paired seed blocks, rather than all 85,800 rows, are the uncertainty units.
