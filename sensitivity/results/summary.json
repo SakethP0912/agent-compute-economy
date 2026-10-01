@@ -1,0 +1,1595 @@
+{
+  "groups": {
+    "all": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.9182115384615389,
+            -0.7146089743589749
+          ],
+          "mean_difference": -0.8146153846153847,
+          "relative_gain": -0.09146130815292497,
+          "relative_gain_ci95": [
+            -0.10244314896506003,
+            -0.0806944386484718
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.04845512820512785,
+            0.22692948717948724
+          ],
+          "mean_difference": 0.13794871794871888,
+          "relative_gain": 0.015488254260709544,
+          "relative_gain_ci95": [
+            0.005423852309770816,
+            0.025579517297710647
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.980532051282052,
+            -0.8707628205128221
+          ],
+          "mean_difference": -0.9258974358974355,
+          "relative_gain": -0.10395555043758631,
+          "relative_gain_ci95": [
+            -0.1096736552829606,
+            -0.0978354276658281
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 11.393788771084337,
+          "mean_completed": 7.980769230769231,
+          "mean_spent": 90.93119884615383,
+          "runs": 3900,
+          "total_completed": 31125
+        },
+        "salary": {
+          "cost_per_completion": 11.194535330650528,
+          "mean_completed": 8.092051282051282,
+          "mean_spent": 90.58675397435897,
+          "runs": 3900,
+          "total_completed": 31559
+        },
+        "salary_milestones": {
+          "cost_per_completion": 9.883868727674773,
+          "mean_completed": 9.044615384615385,
+          "mean_spent": 89.39579115384613,
+          "runs": 3900,
+          "total_completed": 35274
+        },
+        "ucb": {
+          "cost_per_completion": 10.04100757139567,
+          "mean_completed": 8.906666666666666,
+          "mean_spent": 89.43190743589744,
+          "runs": 3900,
+          "total_completed": 34736
+        }
+      },
+      "rows": 15600,
+      "seed_blocks": 100
+    },
+    "budget:160": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.7354038461538449,
+            -0.4046153846153864
+          ],
+          "mean_difference": -0.5661538461538456,
+          "relative_gain": -0.03563474387527832,
+          "relative_gain_ci95": [
+            -0.04620688405515158,
+            -0.025539711118358406
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.1407692307692301,
+            0.41080769230769276
+          ],
+          "mean_difference": 0.2761538461538482,
+          "relative_gain": 0.01738162099351226,
+          "relative_gain_ci95": [
+            0.00886519642548394,
+            0.025931614202224205
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.9677115384615376,
+            -0.7746153846153856
+          ],
+          "mean_difference": -0.8669230769230758,
+          "relative_gain": -0.05456570155901996,
+          "relative_gain_ci95": [
+            -0.06072699635273449,
+            -0.048897756622290206
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 10.239742868848259,
+          "mean_completed": 15.02076923076923,
+          "mean_spent": 153.80881461538456,
+          "runs": 1300,
+          "total_completed": 19527
+        },
+        "salary": {
+          "cost_per_completion": 9.983172758309065,
+          "mean_completed": 15.321538461538461,
+          "mean_spent": 152.95756538461535,
+          "runs": 1300,
+          "total_completed": 19918
+        },
+        "salary_milestones": {
+          "cost_per_completion": 9.277391400561555,
+          "mean_completed": 16.163846153846155,
+          "mean_spent": 149.95832730769226,
+          "runs": 1300,
+          "total_completed": 21013
+        },
+        "ucb": {
+          "cost_per_completion": 9.399866660211096,
+          "mean_completed": 15.887692307692307,
+          "mean_spent": 149.34218923076924,
+          "runs": 1300,
+          "total_completed": 20654
+        }
+      },
+      "rows": 5200,
+      "seed_blocks": 100
+    },
+    "budget:40": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.0784615384615384,
+            -0.8738269230769229
+          ],
+          "mean_difference": -0.9738461538461536,
+          "relative_gain": -0.3039615846338535,
+          "relative_gain_ci95": [
+            -0.3343947985958429,
+            -0.27251169544064985
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.19923076923076888,
+            -0.06615384615384645
+          ],
+          "mean_difference": -0.13384615384615373,
+          "relative_gain": -0.04177671068427369,
+          "relative_gain_ci95": [
+            -0.0618084355348505,
+            -0.020981153291397308
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.6961538461538459,
+            -0.6038461538461544
+          ],
+          "mean_difference": -0.6499999999999999,
+          "relative_gain": -0.20288115246098437,
+          "relative_gain_ci95": [
+            -0.21716104175536985,
+            -0.1880475490393861
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 15.476193825301207,
+          "mean_completed": 2.5538461538461537,
+          "mean_spent": 39.52381807692308,
+          "runs": 1300,
+          "total_completed": 3320
+        },
+        "salary": {
+          "cost_per_completion": 17.634620731286653,
+          "mean_completed": 2.23,
+          "mean_spent": 39.32520423076924,
+          "runs": 1300,
+          "total_completed": 2899
+        },
+        "salary_milestones": {
+          "cost_per_completion": 12.737913430217992,
+          "mean_completed": 3.07,
+          "mean_spent": 39.105394230769235,
+          "runs": 1300,
+          "total_completed": 3991
+        },
+        "ucb": {
+          "cost_per_completion": 12.323276710684274,
+          "mean_completed": 3.2038461538461536,
+          "mean_spent": 39.48188269230769,
+          "runs": 1300,
+          "total_completed": 4165
+        }
+      },
+      "rows": 5200,
+      "seed_blocks": 100
+    },
+    "budget:80": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.0115384615384606,
+            -0.7899807692307694
+          ],
+          "mean_difference": -0.9038461538461533,
+          "relative_gain": -0.11848341232227477,
+          "relative_gain_ci95": [
+            -0.13164021073920323,
+            -0.10453353606340456
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.16461538461538525,
+            0.3761538461538452
+          ],
+          "mean_difference": 0.2715384615384622,
+          "relative_gain": 0.03559544217001109,
+          "relative_gain_ci95": [
+            0.021443368510342186,
+            0.049631714838377056
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.3308076923076928,
+            -1.1853846153846153
+          ],
+          "mean_difference": -1.260769230769231,
+          "relative_gain": -0.1652717555712413,
+          "relative_gain_ci95": [
+            -0.17452425242201483,
+            -0.15583836165067122
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 12.478769388741243,
+          "mean_completed": 6.367692307692307,
+          "mean_spent": 79.46096384615386,
+          "runs": 1300,
+          "total_completed": 8278
+        },
+        "salary": {
+          "cost_per_completion": 11.818890414092888,
+          "mean_completed": 6.724615384615385,
+          "mean_spent": 79.47749230769232,
+          "runs": 1300,
+          "total_completed": 8742
+        },
+        "salary_milestones": {
+          "cost_per_completion": 10.015652142161636,
+          "mean_completed": 7.9,
+          "mean_spent": 79.12365192307693,
+          "runs": 1300,
+          "total_completed": 10270
+        },
+        "ucb": {
+          "cost_per_completion": 10.417782141776748,
+          "mean_completed": 7.628461538461538,
+          "mean_spent": 79.4716503846154,
+          "runs": 1300,
+          "total_completed": 9917
+        }
+      },
+      "rows": 5200,
+      "seed_blocks": 100
+    },
+    "scenario:costly_context": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.3233333333333324,
+            -0.9765833333333337
+          ],
+          "mean_difference": -1.1499999999999995,
+          "relative_gain": -0.20246478873239426,
+          "relative_gain_ci95": [
+            -0.22995774936491734,
+            -0.17385648562295852
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.2833333333333323,
+            0.6933333333333334
+          ],
+          "mean_difference": 0.48666666666666636,
+          "relative_gain": 0.08568075117370877,
+          "relative_gain_ci95": [
+            0.049609507039076385,
+            0.1234277593176994
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.0133333333333336,
+            -0.79
+          ],
+          "mean_difference": -0.8999999999999995,
+          "relative_gain": -0.158450704225352,
+          "relative_gain_ci95": [
+            -0.17613082670264393,
+            -0.14095656300673765
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 19.29057182705718,
+          "mean_completed": 4.78,
+          "mean_spent": 92.20893333333332,
+          "runs": 300,
+          "total_completed": 1434
+        },
+        "salary": {
+          "cost_per_completion": 20.37855776306107,
+          "mean_completed": 4.53,
+          "mean_spent": 92.31486666666665,
+          "runs": 300,
+          "total_completed": 1359
+        },
+        "salary_milestones": {
+          "cost_per_completion": 14.843513513513514,
+          "mean_completed": 6.166666666666666,
+          "mean_spent": 91.535,
+          "runs": 300,
+          "total_completed": 1850
+        },
+        "ucb": {
+          "cost_per_completion": 16.26637323943662,
+          "mean_completed": 5.68,
+          "mean_spent": 92.393,
+          "runs": 300,
+          "total_completed": 1704
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:delayed": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.3333333333333339,
+            0.2900833333333329
+          ],
+          "mean_difference": -0.02999999999999936,
+          "relative_gain": -0.003734439834024772,
+          "relative_gain_ci95": [
+            -0.04115066035983163,
+            0.03785036237032825
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.4132499999999989,
+            0.9300000000000006
+          ],
+          "mean_difference": 0.6666666666666661,
+          "relative_gain": 0.08298755186721984,
+          "relative_gain_ci95": [
+            0.05028230801398123,
+            0.11940574182542298
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.8533333333333326,
+            -0.4566666666666679
+          ],
+          "mean_difference": -0.666666666666667,
+          "relative_gain": -0.08298755186721996,
+          "relative_gain_ci95": [
+            -0.10259792590026333,
+            -0.0591486476258952
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 12.621742760180993,
+          "mean_completed": 7.366666666666666,
+          "mean_spent": 92.98017166666665,
+          "runs": 300,
+          "total_completed": 2210
+        },
+        "salary": {
+          "cost_per_completion": 11.57835610162432,
+          "mean_completed": 8.003333333333334,
+          "mean_spent": 92.66544333333331,
+          "runs": 300,
+          "total_completed": 2401
+        },
+        "salary_milestones": {
+          "cost_per_completion": 10.612154597701146,
+          "mean_completed": 8.7,
+          "mean_spent": 92.32574499999997,
+          "runs": 300,
+          "total_completed": 2610
+        },
+        "ucb": {
+          "cost_per_completion": 11.558719294605808,
+          "mean_completed": 8.033333333333333,
+          "mean_spent": 92.85504499999999,
+          "runs": 300,
+          "total_completed": 2410
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:delayed_misleading": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            1.2332500000000008,
+            2.2833333333333323
+          ],
+          "mean_difference": 1.7800000000000002,
+          "relative_gain": 0.3209134615384617,
+          "relative_gain_ci95": [
+            0.20877682393170577,
+            0.4407148259223751
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            1.0865833333333337,
+            1.9967500000000007
+          ],
+          "mean_difference": 1.5600000000000005,
+          "relative_gain": 0.2812500000000002,
+          "relative_gain_ci95": [
+            0.1925400030109535,
+            0.37076786438329484
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.326666666666667,
+            -0.7299999999999995
+          ],
+          "mean_difference": -1.0266666666666664,
+          "relative_gain": -0.18509615384615385,
+          "relative_gain_ci95": [
+            -0.23564032295733822,
+            -0.13442400750543146
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 20.56508407079646,
+          "mean_completed": 4.52,
+          "mean_spent": 92.95418,
+          "runs": 300,
+          "total_completed": 1356
+        },
+        "salary": {
+          "cost_per_completion": 12.647699954504093,
+          "mean_completed": 7.326666666666666,
+          "mean_spent": 92.66548166666665,
+          "runs": 300,
+          "total_completed": 2198
+        },
+        "salary_milestones": {
+          "cost_per_completion": 12.994719981238271,
+          "mean_completed": 7.1066666666666665,
+          "mean_spent": 92.34914333333332,
+          "runs": 300,
+          "total_completed": 2132
+        },
+        "ucb": {
+          "cost_per_completion": 16.750868389423076,
+          "mean_completed": 5.546666666666666,
+          "mean_spent": 92.91148333333332,
+          "runs": 300,
+          "total_completed": 1664
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:heterogeneous": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.9466666666666672,
+            -0.6199999999999992
+          ],
+          "mean_difference": -0.7766666666666673,
+          "relative_gain": -0.06431134418989792,
+          "relative_gain_ci95": [
+            -0.07838432053572876,
+            -0.05135267515122141
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.23666666666666808,
+            0.5366666666666671
+          ],
+          "mean_difference": 0.39333333333333265,
+          "relative_gain": 0.032569693624068474,
+          "relative_gain_ci95": [
+            0.019601214904905934,
+            0.044488568234420225
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.3566666666666674,
+            -1.173333333333332
+          ],
+          "mean_difference": -1.2666666666666675,
+          "relative_gain": -0.10488545404361027,
+          "relative_gain_ci95": [
+            -0.1120548528366061,
+            -0.09750675207756238
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 7.9465955905026195,
+          "mean_completed": 10.81,
+          "mean_spent": 85.90269833333332,
+          "runs": 300,
+          "total_completed": 3243
+        },
+        "salary": {
+          "cost_per_completion": 7.332378466076695,
+          "mean_completed": 11.3,
+          "mean_spent": 82.85587666666665,
+          "runs": 300,
+          "total_completed": 3390
+        },
+        "salary_milestones": {
+          "cost_per_completion": 6.315603849238169,
+          "mean_completed": 12.47,
+          "mean_spent": 78.75557999999997,
+          "runs": 300,
+          "total_completed": 3741
+        },
+        "ucb": {
+          "cost_per_completion": 6.684748550924646,
+          "mean_completed": 12.076666666666668,
+          "mean_spent": 80.72947999999998,
+          "runs": 300,
+          "total_completed": 3623
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:high_overhead": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.0766666666666662,
+            -0.6333333333333346
+          ],
+          "mean_difference": -0.8533333333333335,
+          "relative_gain": -0.08785175017158542,
+          "relative_gain_ci95": [
+            -0.11035399032658581,
+            -0.06597287201084757
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.1899999999999995,
+            0.6333333333333329
+          ],
+          "mean_difference": 0.41666666666666785,
+          "relative_gain": 0.0428963623884695,
+          "relative_gain_ci95": [
+            0.01945433569192826,
+            0.06542417248708624
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.6099999999999994,
+            -1.3299166666666673
+          ],
+          "mean_difference": -1.4699999999999989,
+          "relative_gain": -0.1513383665065201,
+          "relative_gain_ci95": [
+            -0.16439160427998042,
+            -0.13801333477339175
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 11.243039627982206,
+          "mean_completed": 8.243333333333334,
+          "mean_spent": 92.68012333333333,
+          "runs": 300,
+          "total_completed": 2473
+        },
+        "salary": {
+          "cost_per_completion": 10.327721595184347,
+          "mean_completed": 8.86,
+          "mean_spent": 91.5036133333333,
+          "runs": 300,
+          "total_completed": 2658
+        },
+        "salary_milestones": {
+          "cost_per_completion": 8.874308489634746,
+          "mean_completed": 10.13,
+          "mean_spent": 89.89674499999997,
+          "runs": 300,
+          "total_completed": 3039
+        },
+        "ucb": {
+          "cost_per_completion": 9.467413006177075,
+          "mean_completed": 9.713333333333333,
+          "mean_spent": 91.96013833333332,
+          "runs": 300,
+          "total_completed": 2914
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:homogeneous": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.38333333333333375,
+            0.7333333333333325
+          ],
+          "mean_difference": 0.5533333333333328,
+          "relative_gain": 0.07692307692307687,
+          "relative_gain_ci95": [
+            0.05232024628506356,
+            0.10385424188185123
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            1.54,
+            1.876666666666666
+          ],
+          "mean_difference": 1.7100000000000009,
+          "relative_gain": 0.2377201112140872,
+          "relative_gain_ci95": [
+            0.20868756224093962,
+            0.2673669073427452
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.11008333333333362,
+            0.17333333333333292
+          ],
+          "mean_difference": 0.03000000000000025,
+          "relative_gain": 0.0041705282669137755,
+          "relative_gain_ci95": [
+            -0.015143094817798427,
+            0.02445046878457105
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 12.869839178587906,
+          "mean_completed": 7.223333333333334,
+          "mean_spent": 92.9631383333333,
+          "runs": 300,
+          "total_completed": 2167
+        },
+        "salary": {
+          "cost_per_completion": 11.969489672977623,
+          "mean_completed": 7.746666666666666,
+          "mean_spent": 92.72364666666665,
+          "runs": 300,
+          "total_completed": 2324
+        },
+        "salary_milestones": {
+          "cost_per_completion": 10.394965555971543,
+          "mean_completed": 8.903333333333334,
+          "mean_spent": 92.5498433333333,
+          "runs": 300,
+          "total_completed": 2671
+        },
+        "ucb": {
+          "cost_per_completion": 12.911823911028728,
+          "mean_completed": 7.193333333333333,
+          "mean_spent": 92.87905333333332,
+          "runs": 300,
+          "total_completed": 2158
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:misleading": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.6966666666666654,
+            -0.1466666666666665
+          ],
+          "mean_difference": -0.4233333333333338,
+          "relative_gain": -0.04119364255595204,
+          "relative_gain_ci95": [
+            -0.06809365154190535,
+            -0.014436683931358755
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.6099999999999994,
+            1.19675
+          ],
+          "mean_difference": 0.9199999999999999,
+          "relative_gain": 0.08952319169639966,
+          "relative_gain_ci95": [
+            0.05934386880476887,
+            0.11782416107455873
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.4699999999999989,
+            -1.103249999999999
+          ],
+          "mean_difference": -1.2800000000000011,
+          "relative_gain": -0.1245540058384691,
+          "relative_gain_ci95": [
+            -0.1426287626824584,
+            -0.10753947473211062
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 10.061006113375322,
+          "mean_completed": 8.996666666666666,
+          "mean_spent": 90.51551833333332,
+          "runs": 300,
+          "total_completed": 2699
+        },
+        "salary": {
+          "cost_per_completion": 8.824571041948579,
+          "mean_completed": 9.853333333333333,
+          "mean_spent": 86.95143999999999,
+          "runs": 300,
+          "total_completed": 2956
+        },
+        "salary_milestones": {
+          "cost_per_completion": 7.5205561178922276,
+          "mean_completed": 11.196666666666667,
+          "mean_spent": 84.20515999999998,
+          "runs": 300,
+          "total_completed": 3359
+        },
+        "ucb": {
+          "cost_per_completion": 8.482395394096658,
+          "mean_completed": 10.276666666666667,
+          "mean_spent": 87.17074999999998,
+          "runs": 300,
+          "total_completed": 3083
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:noisy": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.4599999999999991,
+            -0.13325
+          ],
+          "mean_difference": -0.3000000000000007,
+          "relative_gain": -0.027116601385959727,
+          "relative_gain_ci95": [
+            -0.04128776548010771,
+            -0.012020164159749495
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.2766666666666673,
+            0.8068333333333341
+          ],
+          "mean_difference": 0.5600000000000005,
+          "relative_gain": 0.05061765592045808,
+          "relative_gain_ci95": [
+            0.02502223383279476,
+            0.07371431859458627
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.086666666666666,
+            -0.7932500000000001
+          ],
+          "mean_difference": -0.9366666666666656,
+          "relative_gain": -0.08466405543838496,
+          "relative_gain_ci95": [
+            -0.09780994476952927,
+            -0.07203477609896307
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 8.88729822251481,
+          "mean_completed": 10.126666666666667,
+          "mean_spent": 89.99870666666665,
+          "runs": 300,
+          "total_completed": 3038
+        },
+        "salary": {
+          "cost_per_completion": 7.911546763703932,
+          "mean_completed": 10.763333333333332,
+          "mean_spent": 85.15461499999999,
+          "runs": 300,
+          "total_completed": 3229
+        },
+        "salary_milestones": {
+          "cost_per_completion": 7.1050834528247755,
+          "mean_completed": 11.623333333333333,
+          "mean_spent": 82.58475333333331,
+          "runs": 300,
+          "total_completed": 3487
+        },
+        "ucb": {
+          "cost_per_completion": 7.846356884603795,
+          "mean_completed": 11.063333333333333,
+          "mean_spent": 86.80686166666665,
+          "runs": 300,
+          "total_completed": 3319
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:regime_shift": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.2766666666666673,
+            -0.8732499999999985
+          ],
+          "mean_difference": -1.0666666666666664,
+          "relative_gain": -0.11042097998619738,
+          "relative_gain_ci95": [
+            -0.1311155738595956,
+            -0.09056042098770503
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.13000000000000073,
+            0.5000833333333329
+          ],
+          "mean_difference": 0.32333333333333414,
+          "relative_gain": 0.03347135955831626,
+          "relative_gain_ci95": [
+            0.01330124718046522,
+            0.052241632538898186
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.3433333333333337,
+            -1.0733333333333341
+          ],
+          "mean_difference": -1.2100000000000009,
+          "relative_gain": -0.12525879917184268,
+          "relative_gain_ci95": [
+            -0.13795722371894878,
+            -0.11208992944287866
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 10.968176134122286,
+          "mean_completed": 8.45,
+          "mean_spent": 92.68108833333332,
+          "runs": 300,
+          "total_completed": 2535
+        },
+        "salary": {
+          "cost_per_completion": 10.674230023273854,
+          "mean_completed": 8.593333333333334,
+          "mean_spent": 91.72721666666665,
+          "runs": 300,
+          "total_completed": 2578
+        },
+        "salary_milestones": {
+          "cost_per_completion": 9.007141068447408,
+          "mean_completed": 9.983333333333334,
+          "mean_spent": 89.92129166666663,
+          "runs": 300,
+          "total_completed": 2995
+        },
+        "ucb": {
+          "cost_per_completion": 9.474395790200136,
+          "mean_completed": 9.66,
+          "mean_spent": 91.52266333333331,
+          "runs": 300,
+          "total_completed": 2898
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:shared_progress_null": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "relative_gain": 0.0,
+          "relative_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "relative_gain": 0.0,
+          "relative_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "relative_gain": 0.0,
+          "relative_gain_ci95": [
+            0.0,
+            0.0
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 8.107898164594445,
+          "mean_completed": 11.26,
+          "mean_spent": 91.29493333333345,
+          "runs": 300,
+          "total_completed": 3378
+        },
+        "salary": {
+          "cost_per_completion": 8.107898164594445,
+          "mean_completed": 11.26,
+          "mean_spent": 91.29493333333345,
+          "runs": 300,
+          "total_completed": 3378
+        },
+        "salary_milestones": {
+          "cost_per_completion": 8.107898164594445,
+          "mean_completed": 11.26,
+          "mean_spent": 91.29493333333345,
+          "runs": 300,
+          "total_completed": 3378
+        },
+        "ucb": {
+          "cost_per_completion": 8.107898164594445,
+          "mean_completed": 11.26,
+          "mean_spent": 91.29493333333345,
+          "runs": 300,
+          "total_completed": 3378
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:shift_memory": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.6134166666666674,
+            -1.33
+          ],
+          "mean_difference": -1.4699999999999998,
+          "relative_gain": -0.30020422055820284,
+          "relative_gain_ci95": [
+            -0.32722458803925203,
+            -0.27342084684143464
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.2699999999999996,
+            0.04333333333333389
+          ],
+          "mean_difference": -0.11333333333333329,
+          "relative_gain": -0.023144996596324074,
+          "relative_gain_ci95": [
+            -0.05471429409831456,
+            0.008959647543232977
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -0.8533333333333335,
+            -0.6565833333333334
+          ],
+          "mean_difference": -0.7566666666666668,
+          "relative_gain": -0.15452688904016343,
+          "relative_gain_ci95": [
+            -0.1734432835249671,
+            -0.13509609449147003
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 22.29316264090177,
+          "mean_completed": 4.14,
+          "mean_spent": 92.29369333333332,
+          "runs": 300,
+          "total_completed": 1242
+        },
+        "salary": {
+          "cost_per_completion": 26.935107003891048,
+          "mean_completed": 3.4266666666666667,
+          "mean_spent": 92.29763333333332,
+          "runs": 300,
+          "total_completed": 1028
+        },
+        "salary_milestones": {
+          "cost_per_completion": 19.122287108013936,
+          "mean_completed": 4.783333333333333,
+          "mean_spent": 91.46827333333333,
+          "runs": 300,
+          "total_completed": 1435
+        },
+        "ucb": {
+          "cost_per_completion": 18.85748536419333,
+          "mean_completed": 4.8966666666666665,
+          "mean_spent": 92.33882,
+          "runs": 300,
+          "total_completed": 1469
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:specialists": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -7.253333333333334,
+            -6.886666666666667
+          ],
+          "mean_difference": -7.066666666666666,
+          "relative_gain": -0.5551191411364231,
+          "relative_gain_ci95": [
+            -0.5706487163376449,
+            -0.5400821513507768
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -6.690083333333335,
+            -6.24
+          ],
+          "mean_difference": -6.466666666666667,
+          "relative_gain": -0.5079863838701231,
+          "relative_gain_ci95": [
+            -0.5261790157178986,
+            -0.4889291200276582
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.7466666666666644,
+            -1.5999999999999996
+          ],
+          "mean_difference": -1.6733333333333338,
+          "relative_gain": -0.13144802304268133,
+          "relative_gain_ci95": [
+            -0.13695828451194242,
+            -0.1258461037005268
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 7.481051100391919,
+          "mean_completed": 11.056666666666667,
+          "mean_spent": 82.71548833333331,
+          "runs": 300,
+          "total_completed": 3317
+        },
+        "salary": {
+          "cost_per_completion": 16.37784196586227,
+          "mean_completed": 5.663333333333334,
+          "mean_spent": 92.75317833333332,
+          "runs": 300,
+          "total_completed": 1699
+        },
+        "salary_milestones": {
+          "cost_per_completion": 14.792212613092067,
+          "mean_completed": 6.263333333333334,
+          "mean_spent": 92.64855833333331,
+          "runs": 300,
+          "total_completed": 1879
+        },
+        "ucb": {
+          "cost_per_completion": 6.03653469494632,
+          "mean_completed": 12.73,
+          "mean_spent": 76.84508666666665,
+          "runs": 300,
+          "total_completed": 3819
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    },
+    "scenario:weak_signal": {
+      "comparisons": [
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            0.0699166666666661,
+            0.35999999999999943
+          ],
+          "mean_difference": 0.21333333333333382,
+          "relative_gain": 0.027862429255550714,
+          "relative_gain_ci95": [
+            0.008944653406584468,
+            0.0473893097704364
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            1.1600000000000001,
+            1.5166666666666675
+          ],
+          "mean_difference": 1.3366666666666678,
+          "relative_gain": 0.1745755333043102,
+          "relative_gain_ci95": [
+            0.14976008892838624,
+            0.20009352969545652
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "salary_milestones",
+          "valid_ratio_resamples": 2000
+        },
+        {
+          "control": "ucb",
+          "difference_ci95": [
+            -1.0333333333333323,
+            -0.7266666666666675
+          ],
+          "mean_difference": -0.8799999999999999,
+          "relative_gain": -0.11493252067914672,
+          "relative_gain_ci95": [
+            -0.13321803001604512,
+            -0.09610017714791841
+          ],
+          "status": "exploratory accounting sensitivity",
+          "treatment": "revised",
+          "valid_ratio_resamples": 2000
+        }
+      ],
+      "policies": {
+        "revised": {
+          "cost_per_completion": 13.711300295130346,
+          "mean_completed": 6.776666666666666,
+          "mean_spent": 92.91691166666665,
+          "runs": 300,
+          "total_completed": 2033
+        },
+        "salary": {
+          "cost_per_completion": 11.781430326132993,
+          "mean_completed": 7.87,
+          "mean_spent": 92.71985666666664,
+          "runs": 300,
+          "total_completed": 2361
+        },
+        "salary_milestones": {
+          "cost_per_completion": 10.297656597479612,
+          "mean_completed": 8.993333333333334,
+          "mean_spent": 92.6102583333333,
+          "runs": 300,
+          "total_completed": 2698
+        },
+        "ucb": {
+          "cost_per_completion": 12.1341943839791,
+          "mean_completed": 7.656666666666666,
+          "mean_spent": 92.90748166666664,
+          "runs": 300,
+          "total_completed": 2297
+        }
+      },
+      "rows": 1200,
+      "seed_blocks": 100
+    }
+  },
+  "metadata": {
+    "bootstrap_resamples": 2000,
+    "bootstrap_seed": 734922,
+    "budgets": [
+      40,
+      80,
+      160
+    ],
+    "configs": [
+      {
+        "explore": 0.05,
+        "kind": "ucb",
+        "lease": 1,
+        "name": "ucb"
+      },
+      {
+        "kind": "salary",
+        "milestones": false,
+        "name": "salary",
+        "payday": 16,
+        "retention": 0.5
+      },
+      {
+        "kind": "salary",
+        "milestones": true,
+        "name": "salary_milestones",
+        "payday": 8,
+        "retention": 0.5
+      },
+      {
+        "continuity": 0.15,
+        "decay": 1.0,
+        "explore": 0.05,
+        "kind": "revised",
+        "lease": 2,
+        "name": "revised",
+        "shaping": 1.0
+      }
+    ],
+    "controller_fee": 0.04,
+    "elapsed_seconds": 6.227,
+    "implementation_sha256": "b7e57bae8c3c21d29c96bf3bd298a12961f161844b1babf0c7ff3453cf29f41f",
+    "independent_seed_blocks": 100,
+    "null_identical": true,
+    "original_manifest_sha256": "2e4c256aaa50640d1c211315f4402b208514442cef57147b96c789fc435cdc92",
+    "original_source_hashes": {
+      "economy/__init__.py": "698164c0a00f06770938b7fa1244b5df909ec95b63057e06745f0cf2bfa030d9",
+      "economy/analyze.py": "f1658c9875c4f3bbd382354f6af7e1e3a8b82aa80e808aec81f263d8f92b083f",
+      "economy/experiment.py": "b29ec7e92a44b8ff31611c6068c9a4bfed320918acb85de89c0c1b64e21c532d",
+      "economy/policies.py": "30cc4c934dc26e307bc0c38aa0d5a11e1dd2b1c8039ee491665205d68f38c627",
+      "economy/simulator.py": "a3b003fe28260f795feff19f1ff2a9b4ea8de5ad2cddb764184b953ef4dbed56"
+    },
+    "primary_outputs_before": {
+      "results/analysis.json": "bbb9110a0da05b0fb1c4d0af8ea273c195aaaa5071bcb81c9ecb8eb297720deb",
+      "results/evaluation.csv": "4e4a084026a544c74340267089b905d740222c45c8b28d19b4f3f20cb901fa2b",
+      "results/frozen_config.json": "2e4c256aaa50640d1c211315f4402b208514442cef57147b96c789fc435cdc92"
+    },
+    "protocol_sha256": "4bd63a60a95da72272bbde7a81ad070886a0b0a1d5a5e9a48f405b92278475c2",
+    "seeds": [
+      20000,
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007,
+      20008,
+      20009,
+      20010,
+      20011,
+      20012,
+      20013,
+      20014,
+      20015,
+      20016,
+      20017,
+      20018,
+      20019,
+      20020,
+      20021,
+      20022,
+      20023,
+      20024,
+      20025,
+      20026,
+      20027,
+      20028,
+      20029,
+      20030,
+      20031,
+      20032,
+      20033,
+      20034,
+      20035,
+      20036,
+      20037,
+      20038,
+      20039,
+      20040,
+      20041,
+      20042,
+      20043,
+      20044,
+      20045,
+      20046,
+      20047,
+      20048,
+      20049,
+      20050,
+      20051,
+      20052,
+      20053,
+      20054,
+      20055,
+      20056,
+      20057,
+      20058,
+      20059,
+      20060,
+      20061,
+      20062,
+      20063,
+      20064,
+      20065,
+      20066,
+      20067,
+      20068,
+      20069,
+      20070,
+      20071,
+      20072,
+      20073,
+      20074,
+      20075,
+      20076,
+      20077,
+      20078,
+      20079,
+      20080,
+      20081,
+      20082,
+      20083,
+      20084,
+      20085,
+      20086,
+      20087,
+      20088,
+      20089,
+      20090,
+      20091,
+      20092,
+      20093,
+      20094,
+      20095,
+      20096,
+      20097,
+      20098,
+      20099
+    ],
+    "status": "post-hoc fresh-seed exploratory sensitivity",
+    "total_runs": 15600
+  }
+}

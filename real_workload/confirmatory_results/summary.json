@@ -1,0 +1,1193 @@
+{
+  "overall": {
+    "equal": {
+      "runs": 1200,
+      "solved": 388,
+      "success_rate": 0.3233333333333333,
+      "total_charged_operations": 159568276,
+      "aggregate_operations_per_solved_task_including_failures": 411258.44329896907,
+      "candidate_count": 197536,
+      "false_training_matches": 29
+    },
+    "random": {
+      "runs": 1200,
+      "solved": 384,
+      "success_rate": 0.32,
+      "total_charged_operations": 159612332,
+      "aggregate_operations_per_solved_task_including_failures": 415657.1145833333,
+      "candidate_count": 197528,
+      "false_training_matches": 31
+    },
+    "salary": {
+      "runs": 1200,
+      "solved": 498,
+      "success_rate": 0.415,
+      "total_charged_operations": 159615441,
+      "aggregate_operations_per_solved_task_including_failures": 320512.9337349398,
+      "candidate_count": 200394,
+      "false_training_matches": 42
+    },
+    "cost_ucb": {
+      "runs": 1200,
+      "solved": 389,
+      "success_rate": 0.32416666666666666,
+      "total_charged_operations": 159573446,
+      "aggregate_operations_per_solved_task_including_failures": 410214.5141388175,
+      "candidate_count": 197603,
+      "false_training_matches": 30
+    },
+    "explore_commit": {
+      "runs": 1200,
+      "solved": 567,
+      "success_rate": 0.4725,
+      "total_charged_operations": 159664036,
+      "aggregate_operations_per_solved_task_including_failures": 281594.4197530864,
+      "candidate_count": 197716,
+      "false_training_matches": 54
+    }
+  },
+  "primary_comparison": {
+    "control": "explore_commit",
+    "paired_cells": 1200,
+    "independent_seed_blocks": 100,
+    "cells_per_block": 12,
+    "salary_wins": 73,
+    "ties": 985,
+    "salary_losses": 142,
+    "success_difference_percentage_points": -5.75,
+    "paired_seed_block_bootstrap_95_interval_percentage_points": [
+      -8.166666666666666,
+      -3.3333333333333335
+    ],
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 7621
+  },
+  "secondary_comparisons": {
+    "equal": {
+      "control": "equal",
+      "paired_cells": 1200,
+      "independent_seed_blocks": 100,
+      "cells_per_block": 12,
+      "salary_wins": 136,
+      "ties": 1038,
+      "salary_losses": 26,
+      "success_difference_percentage_points": 9.166666666666666,
+      "paired_seed_block_bootstrap_95_interval_percentage_points": [
+        7.75,
+        10.666666666666666
+      ],
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 7621
+    },
+    "random": {
+      "control": "random",
+      "paired_cells": 1200,
+      "independent_seed_blocks": 100,
+      "cells_per_block": 12,
+      "salary_wins": 140,
+      "ties": 1034,
+      "salary_losses": 26,
+      "success_difference_percentage_points": 9.5,
+      "paired_seed_block_bootstrap_95_interval_percentage_points": [
+        8.0,
+        11.0
+      ],
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 7621
+    },
+    "cost_ucb": {
+      "control": "cost_ucb",
+      "paired_cells": 1200,
+      "independent_seed_blocks": 100,
+      "cells_per_block": 12,
+      "salary_wins": 135,
+      "ties": 1039,
+      "salary_losses": 26,
+      "success_difference_percentage_points": 9.083333333333334,
+      "paired_seed_block_bootstrap_95_interval_percentage_points": [
+        7.583333333333334,
+        10.583333333333334
+      ],
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 7621
+    }
+  },
+  "by_budget": {
+    "40000": {
+      "policies": {
+        "equal": {
+          "runs": 400,
+          "solved": 49,
+          "success_rate": 0.1225,
+          "total_charged_operations": 15821100,
+          "aggregate_operations_per_solved_task_including_failures": 322879.5918367347,
+          "candidate_count": 19620,
+          "false_training_matches": 3
+        },
+        "random": {
+          "runs": 400,
+          "solved": 50,
+          "success_rate": 0.125,
+          "total_charged_operations": 15874948,
+          "aggregate_operations_per_solved_task_including_failures": 317498.96,
+          "candidate_count": 19684,
+          "false_training_matches": 3
+        },
+        "salary": {
+          "runs": 400,
+          "solved": 74,
+          "success_rate": 0.185,
+          "total_charged_operations": 15875733,
+          "aggregate_operations_per_solved_task_including_failures": 214536.93243243243,
+          "candidate_count": 19902,
+          "false_training_matches": 5
+        },
+        "cost_ucb": {
+          "runs": 400,
+          "solved": 50,
+          "success_rate": 0.125,
+          "total_charged_operations": 15841672,
+          "aggregate_operations_per_solved_task_including_failures": 316833.44,
+          "candidate_count": 19618,
+          "false_training_matches": 3
+        },
+        "explore_commit": {
+          "runs": 400,
+          "solved": 75,
+          "success_rate": 0.1875,
+          "total_charged_operations": 15901426,
+          "aggregate_operations_per_solved_task_including_failures": 212019.01333333334,
+          "candidate_count": 19756,
+          "false_training_matches": 5
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 400,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 4,
+        "salary_wins": 17,
+        "ties": 365,
+        "salary_losses": 18,
+        "success_difference_percentage_points": -0.25,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -3.25,
+          2.5
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    },
+    "120000": {
+      "policies": {
+        "equal": {
+          "runs": 400,
+          "solved": 121,
+          "success_rate": 0.3025,
+          "total_charged_operations": 47846944,
+          "aggregate_operations_per_solved_task_including_failures": 395429.28925619833,
+          "candidate_count": 59212,
+          "false_training_matches": 9
+        },
+        "random": {
+          "runs": 400,
+          "solved": 115,
+          "success_rate": 0.2875,
+          "total_charged_operations": 47865800,
+          "aggregate_operations_per_solved_task_including_failures": 416224.347826087,
+          "candidate_count": 59276,
+          "false_training_matches": 10
+        },
+        "salary": {
+          "runs": 400,
+          "solved": 160,
+          "success_rate": 0.4,
+          "total_charged_operations": 47859826,
+          "aggregate_operations_per_solved_task_including_failures": 299123.9125,
+          "candidate_count": 60106,
+          "false_training_matches": 15
+        },
+        "cost_ucb": {
+          "runs": 400,
+          "solved": 121,
+          "success_rate": 0.3025,
+          "total_charged_operations": 47854769,
+          "aggregate_operations_per_solved_task_including_failures": 395493.95867768594,
+          "candidate_count": 59261,
+          "false_training_matches": 10
+        },
+        "explore_commit": {
+          "runs": 400,
+          "solved": 201,
+          "success_rate": 0.5025,
+          "total_charged_operations": 47907359,
+          "aggregate_operations_per_solved_task_including_failures": 238345.0696517413,
+          "candidate_count": 59363,
+          "false_training_matches": 20
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 400,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 4,
+        "salary_wins": 22,
+        "ties": 315,
+        "salary_losses": 63,
+        "success_difference_percentage_points": -10.25,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -14.75,
+          -5.75
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    },
+    "240000": {
+      "policies": {
+        "equal": {
+          "runs": 400,
+          "solved": 218,
+          "success_rate": 0.545,
+          "total_charged_operations": 95900232,
+          "aggregate_operations_per_solved_task_including_failures": 439909.3211009174,
+          "candidate_count": 118704,
+          "false_training_matches": 17
+        },
+        "random": {
+          "runs": 400,
+          "solved": 219,
+          "success_rate": 0.5475,
+          "total_charged_operations": 95871584,
+          "aggregate_operations_per_solved_task_including_failures": 437769.7899543379,
+          "candidate_count": 118568,
+          "false_training_matches": 18
+        },
+        "salary": {
+          "runs": 400,
+          "solved": 264,
+          "success_rate": 0.66,
+          "total_charged_operations": 95879882,
+          "aggregate_operations_per_solved_task_including_failures": 363181.3712121212,
+          "candidate_count": 120386,
+          "false_training_matches": 22
+        },
+        "cost_ucb": {
+          "runs": 400,
+          "solved": 218,
+          "success_rate": 0.545,
+          "total_charged_operations": 95877005,
+          "aggregate_operations_per_solved_task_including_failures": 439802.7752293578,
+          "candidate_count": 118724,
+          "false_training_matches": 17
+        },
+        "explore_commit": {
+          "runs": 400,
+          "solved": 291,
+          "success_rate": 0.7275,
+          "total_charged_operations": 95855251,
+          "aggregate_operations_per_solved_task_including_failures": 329399.4879725086,
+          "candidate_count": 118597,
+          "false_training_matches": 29
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 400,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 4,
+        "salary_wins": 34,
+        "ties": 305,
+        "salary_losses": 61,
+        "success_difference_percentage_points": -6.75,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -11.5,
+          -2.0
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    }
+  },
+  "by_family": {
+    "affine": {
+      "policies": {
+        "equal": {
+          "runs": 300,
+          "solved": 63,
+          "success_rate": 0.21,
+          "total_charged_operations": 39892069,
+          "aggregate_operations_per_solved_task_including_failures": 633207.4444444445,
+          "candidate_count": 49384,
+          "false_training_matches": 1
+        },
+        "random": {
+          "runs": 300,
+          "solved": 62,
+          "success_rate": 0.20666666666666667,
+          "total_charged_operations": 39903083,
+          "aggregate_operations_per_solved_task_including_failures": 643598.1129032258,
+          "candidate_count": 49382,
+          "false_training_matches": 2
+        },
+        "salary": {
+          "runs": 300,
+          "solved": 74,
+          "success_rate": 0.24666666666666667,
+          "total_charged_operations": 39897733,
+          "aggregate_operations_per_solved_task_including_failures": 539158.5540540541,
+          "candidate_count": 50350,
+          "false_training_matches": 2
+        },
+        "cost_ucb": {
+          "runs": 300,
+          "solved": 63,
+          "success_rate": 0.21,
+          "total_charged_operations": 39889915,
+          "aggregate_operations_per_solved_task_including_failures": 633173.253968254,
+          "candidate_count": 49417,
+          "false_training_matches": 2
+        },
+        "explore_commit": {
+          "runs": 300,
+          "solved": 72,
+          "success_rate": 0.24,
+          "total_charged_operations": 39910892,
+          "aggregate_operations_per_solved_task_including_failures": 554317.9444444445,
+          "candidate_count": 50387,
+          "false_training_matches": 3
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 300,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 3,
+        "salary_wins": 21,
+        "ties": 260,
+        "salary_losses": 19,
+        "success_difference_percentage_points": 0.6666666666666667,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -3.6666666666666665,
+          5.0
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    },
+    "quadratic": {
+      "policies": {
+        "equal": {
+          "runs": 300,
+          "solved": 86,
+          "success_rate": 0.2866666666666667,
+          "total_charged_operations": 39892069,
+          "aggregate_operations_per_solved_task_including_failures": 463861.26744186046,
+          "candidate_count": 49384,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 300,
+          "solved": 88,
+          "success_rate": 0.29333333333333333,
+          "total_charged_operations": 39903083,
+          "aggregate_operations_per_solved_task_including_failures": 453444.125,
+          "candidate_count": 49382,
+          "false_training_matches": 0
+        },
+        "salary": {
+          "runs": 300,
+          "solved": 98,
+          "success_rate": 0.32666666666666666,
+          "total_charged_operations": 39902793,
+          "aggregate_operations_per_solved_task_including_failures": 407171.35714285716,
+          "candidate_count": 49821,
+          "false_training_matches": 0
+        },
+        "cost_ucb": {
+          "runs": 300,
+          "solved": 86,
+          "success_rate": 0.2866666666666667,
+          "total_charged_operations": 39896914,
+          "aggregate_operations_per_solved_task_including_failures": 463917.6046511628,
+          "candidate_count": 49369,
+          "false_training_matches": 0
+        },
+        "explore_commit": {
+          "runs": 300,
+          "solved": 106,
+          "success_rate": 0.35333333333333333,
+          "total_charged_operations": 39913531,
+          "aggregate_operations_per_solved_task_including_failures": 376542.74528301886,
+          "candidate_count": 49543,
+          "false_training_matches": 0
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 300,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 3,
+        "salary_wins": 26,
+        "ties": 240,
+        "salary_losses": 34,
+        "success_difference_percentage_points": -2.666666666666667,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -8.333333333333332,
+          3.0
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    },
+    "piecewise": {
+      "policies": {
+        "equal": {
+          "runs": 300,
+          "solved": 107,
+          "success_rate": 0.3566666666666667,
+          "total_charged_operations": 39892069,
+          "aggregate_operations_per_solved_task_including_failures": 372823.07476635516,
+          "candidate_count": 49384,
+          "false_training_matches": 18
+        },
+        "random": {
+          "runs": 300,
+          "solved": 103,
+          "success_rate": 0.3433333333333333,
+          "total_charged_operations": 39903083,
+          "aggregate_operations_per_solved_task_including_failures": 387408.57281553396,
+          "candidate_count": 49382,
+          "false_training_matches": 18
+        },
+        "salary": {
+          "runs": 300,
+          "solved": 167,
+          "success_rate": 0.5566666666666666,
+          "total_charged_operations": 39903123,
+          "aggregate_operations_per_solved_task_including_failures": 238940.85628742515,
+          "candidate_count": 51123,
+          "false_training_matches": 27
+        },
+        "cost_ucb": {
+          "runs": 300,
+          "solved": 108,
+          "success_rate": 0.36,
+          "total_charged_operations": 39884944,
+          "aggregate_operations_per_solved_task_including_failures": 369305.037037037,
+          "candidate_count": 49468,
+          "false_training_matches": 18
+        },
+        "explore_commit": {
+          "runs": 300,
+          "solved": 171,
+          "success_rate": 0.57,
+          "total_charged_operations": 39913835,
+          "aggregate_operations_per_solved_task_including_failures": 233414.23976608188,
+          "candidate_count": 51467,
+          "false_training_matches": 27
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 300,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 3,
+        "salary_wins": 26,
+        "ties": 244,
+        "salary_losses": 30,
+        "success_difference_percentage_points": -1.3333333333333335,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -6.666666666666667,
+          3.6666666666666665
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    },
+    "modular": {
+      "policies": {
+        "equal": {
+          "runs": 300,
+          "solved": 132,
+          "success_rate": 0.44,
+          "total_charged_operations": 39892069,
+          "aggregate_operations_per_solved_task_including_failures": 302212.6439393939,
+          "candidate_count": 49384,
+          "false_training_matches": 10
+        },
+        "random": {
+          "runs": 300,
+          "solved": 131,
+          "success_rate": 0.43666666666666665,
+          "total_charged_operations": 39903083,
+          "aggregate_operations_per_solved_task_including_failures": 304603.6870229008,
+          "candidate_count": 49382,
+          "false_training_matches": 11
+        },
+        "salary": {
+          "runs": 300,
+          "solved": 159,
+          "success_rate": 0.53,
+          "total_charged_operations": 39911792,
+          "aggregate_operations_per_solved_task_including_failures": 251017.55974842768,
+          "candidate_count": 49100,
+          "false_training_matches": 13
+        },
+        "cost_ucb": {
+          "runs": 300,
+          "solved": 132,
+          "success_rate": 0.44,
+          "total_charged_operations": 39901673,
+          "aggregate_operations_per_solved_task_including_failures": 302285.4015151515,
+          "candidate_count": 49349,
+          "false_training_matches": 10
+        },
+        "explore_commit": {
+          "runs": 300,
+          "solved": 218,
+          "success_rate": 0.7266666666666667,
+          "total_charged_operations": 39925778,
+          "aggregate_operations_per_solved_task_including_failures": 183145.77064220182,
+          "candidate_count": 46319,
+          "false_training_matches": 24
+        }
+      },
+      "descriptive_primary_comparison": {
+        "control": "explore_commit",
+        "paired_cells": 300,
+        "independent_seed_blocks": 100,
+        "cells_per_block": 3,
+        "salary_wins": 0,
+        "ties": 241,
+        "salary_losses": 59,
+        "success_difference_percentage_points": -19.666666666666664,
+        "paired_seed_block_bootstrap_95_interval_percentage_points": [
+          -23.666666666666668,
+          -15.666666666666664
+        ],
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 7621
+      }
+    }
+  },
+  "by_budget_and_family": {
+    "40000": {
+      "affine": {
+        "equal": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3955275,
+          "aggregate_operations_per_solved_task_including_failures": 395527.5,
+          "candidate_count": 4905,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3968737,
+          "aggregate_operations_per_solved_task_including_failures": 396873.7,
+          "candidate_count": 4921,
+          "false_training_matches": 0
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 11,
+          "success_rate": 0.11,
+          "total_charged_operations": 3968411,
+          "aggregate_operations_per_solved_task_including_failures": 360764.63636363635,
+          "candidate_count": 5000,
+          "false_training_matches": 0
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3959083,
+          "aggregate_operations_per_solved_task_including_failures": 395908.3,
+          "candidate_count": 4906,
+          "false_training_matches": 0
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 8,
+          "success_rate": 0.08,
+          "total_charged_operations": 3969514,
+          "aggregate_operations_per_solved_task_including_failures": 496189.25,
+          "candidate_count": 5050,
+          "false_training_matches": 0
+        }
+      },
+      "quadratic": {
+        "equal": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3955275,
+          "aggregate_operations_per_solved_task_including_failures": 395527.5,
+          "candidate_count": 4905,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3968737,
+          "aggregate_operations_per_solved_task_including_failures": 396873.7,
+          "candidate_count": 4921,
+          "false_training_matches": 0
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3968629,
+          "aggregate_operations_per_solved_task_including_failures": 396862.9,
+          "candidate_count": 4975,
+          "false_training_matches": 0
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3960944,
+          "aggregate_operations_per_solved_task_including_failures": 396094.4,
+          "candidate_count": 4904,
+          "false_training_matches": 0
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 5,
+          "success_rate": 0.05,
+          "total_charged_operations": 3974300,
+          "aggregate_operations_per_solved_task_including_failures": 794860.0,
+          "candidate_count": 4976,
+          "false_training_matches": 0
+        }
+      },
+      "piecewise": {
+        "equal": {
+          "runs": 100,
+          "solved": 9,
+          "success_rate": 0.09,
+          "total_charged_operations": 3955275,
+          "aggregate_operations_per_solved_task_including_failures": 439475.0,
+          "candidate_count": 4905,
+          "false_training_matches": 2
+        },
+        "random": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3968737,
+          "aggregate_operations_per_solved_task_including_failures": 396873.7,
+          "candidate_count": 4921,
+          "false_training_matches": 2
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 24,
+          "success_rate": 0.24,
+          "total_charged_operations": 3966875,
+          "aggregate_operations_per_solved_task_including_failures": 165286.45833333334,
+          "candidate_count": 5084,
+          "false_training_matches": 4
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 10,
+          "success_rate": 0.1,
+          "total_charged_operations": 3955034,
+          "aggregate_operations_per_solved_task_including_failures": 395503.4,
+          "candidate_count": 4907,
+          "false_training_matches": 2
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 22,
+          "success_rate": 0.22,
+          "total_charged_operations": 3974142,
+          "aggregate_operations_per_solved_task_including_failures": 180642.81818181818,
+          "candidate_count": 5061,
+          "false_training_matches": 2
+        }
+      },
+      "modular": {
+        "equal": {
+          "runs": 100,
+          "solved": 20,
+          "success_rate": 0.2,
+          "total_charged_operations": 3955275,
+          "aggregate_operations_per_solved_task_including_failures": 197763.75,
+          "candidate_count": 4905,
+          "false_training_matches": 1
+        },
+        "random": {
+          "runs": 100,
+          "solved": 20,
+          "success_rate": 0.2,
+          "total_charged_operations": 3968737,
+          "aggregate_operations_per_solved_task_including_failures": 198436.85,
+          "candidate_count": 4921,
+          "false_training_matches": 1
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 29,
+          "success_rate": 0.29,
+          "total_charged_operations": 3971818,
+          "aggregate_operations_per_solved_task_including_failures": 136959.24137931035,
+          "candidate_count": 4843,
+          "false_training_matches": 1
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 20,
+          "success_rate": 0.2,
+          "total_charged_operations": 3966611,
+          "aggregate_operations_per_solved_task_including_failures": 198330.55,
+          "candidate_count": 4901,
+          "false_training_matches": 1
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 40,
+          "success_rate": 0.4,
+          "total_charged_operations": 3983470,
+          "aggregate_operations_per_solved_task_including_failures": 99586.75,
+          "candidate_count": 4669,
+          "false_training_matches": 3
+        }
+      }
+    },
+    "120000": {
+      "affine": {
+        "equal": {
+          "runs": 100,
+          "solved": 15,
+          "success_rate": 0.15,
+          "total_charged_operations": 11961736,
+          "aggregate_operations_per_solved_task_including_failures": 797449.0666666667,
+          "candidate_count": 14803,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 100,
+          "solved": 15,
+          "success_rate": 0.15,
+          "total_charged_operations": 11966450,
+          "aggregate_operations_per_solved_task_including_failures": 797763.3333333334,
+          "candidate_count": 14819,
+          "false_training_matches": 1
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 23,
+          "success_rate": 0.23,
+          "total_charged_operations": 11964700,
+          "aggregate_operations_per_solved_task_including_failures": 520204.347826087,
+          "candidate_count": 15094,
+          "false_training_matches": 1
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 15,
+          "success_rate": 0.15,
+          "total_charged_operations": 11961101,
+          "aggregate_operations_per_solved_task_including_failures": 797406.7333333333,
+          "candidate_count": 14816,
+          "false_training_matches": 1
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 21,
+          "success_rate": 0.21,
+          "total_charged_operations": 11975224,
+          "aggregate_operations_per_solved_task_including_failures": 570248.7619047619,
+          "candidate_count": 15007,
+          "false_training_matches": 1
+        }
+      },
+      "quadratic": {
+        "equal": {
+          "runs": 100,
+          "solved": 26,
+          "success_rate": 0.26,
+          "total_charged_operations": 11961736,
+          "aggregate_operations_per_solved_task_including_failures": 460066.76923076925,
+          "candidate_count": 14803,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 100,
+          "solved": 24,
+          "success_rate": 0.24,
+          "total_charged_operations": 11966450,
+          "aggregate_operations_per_solved_task_including_failures": 498602.0833333333,
+          "candidate_count": 14819,
+          "false_training_matches": 0
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 24,
+          "success_rate": 0.24,
+          "total_charged_operations": 11963712,
+          "aggregate_operations_per_solved_task_including_failures": 498488.0,
+          "candidate_count": 14997,
+          "false_training_matches": 0
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 26,
+          "success_rate": 0.26,
+          "total_charged_operations": 11962627,
+          "aggregate_operations_per_solved_task_including_failures": 460101.03846153844,
+          "candidate_count": 14803,
+          "false_training_matches": 0
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 34,
+          "success_rate": 0.34,
+          "total_charged_operations": 11975042,
+          "aggregate_operations_per_solved_task_including_failures": 352207.1176470588,
+          "candidate_count": 14825,
+          "false_training_matches": 0
+        }
+      },
+      "piecewise": {
+        "equal": {
+          "runs": 100,
+          "solved": 35,
+          "success_rate": 0.35,
+          "total_charged_operations": 11961736,
+          "aggregate_operations_per_solved_task_including_failures": 341763.8857142857,
+          "candidate_count": 14803,
+          "false_training_matches": 6
+        },
+        "random": {
+          "runs": 100,
+          "solved": 34,
+          "success_rate": 0.34,
+          "total_charged_operations": 11966450,
+          "aggregate_operations_per_solved_task_including_failures": 351954.4117647059,
+          "candidate_count": 14819,
+          "false_training_matches": 6
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 58,
+          "success_rate": 0.58,
+          "total_charged_operations": 11966148,
+          "aggregate_operations_per_solved_task_including_failures": 206312.89655172414,
+          "candidate_count": 15327,
+          "false_training_matches": 9
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 35,
+          "success_rate": 0.35,
+          "total_charged_operations": 11962096,
+          "aggregate_operations_per_solved_task_including_failures": 341774.17142857146,
+          "candidate_count": 14839,
+          "false_training_matches": 6
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 66,
+          "success_rate": 0.66,
+          "total_charged_operations": 11972281,
+          "aggregate_operations_per_solved_task_including_failures": 181398.19696969696,
+          "candidate_count": 15628,
+          "false_training_matches": 12
+        }
+      },
+      "modular": {
+        "equal": {
+          "runs": 100,
+          "solved": 45,
+          "success_rate": 0.45,
+          "total_charged_operations": 11961736,
+          "aggregate_operations_per_solved_task_including_failures": 265816.35555555555,
+          "candidate_count": 14803,
+          "false_training_matches": 3
+        },
+        "random": {
+          "runs": 100,
+          "solved": 42,
+          "success_rate": 0.42,
+          "total_charged_operations": 11966450,
+          "aggregate_operations_per_solved_task_including_failures": 284915.4761904762,
+          "candidate_count": 14819,
+          "false_training_matches": 3
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 55,
+          "success_rate": 0.55,
+          "total_charged_operations": 11965266,
+          "aggregate_operations_per_solved_task_including_failures": 217550.29090909092,
+          "candidate_count": 14688,
+          "false_training_matches": 5
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 45,
+          "success_rate": 0.45,
+          "total_charged_operations": 11968945,
+          "aggregate_operations_per_solved_task_including_failures": 265976.55555555556,
+          "candidate_count": 14803,
+          "false_training_matches": 3
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 80,
+          "success_rate": 0.8,
+          "total_charged_operations": 11984812,
+          "aggregate_operations_per_solved_task_including_failures": 149810.15,
+          "candidate_count": 13903,
+          "false_training_matches": 7
+        }
+      }
+    },
+    "240000": {
+      "affine": {
+        "equal": {
+          "runs": 100,
+          "solved": 38,
+          "success_rate": 0.38,
+          "total_charged_operations": 23975058,
+          "aggregate_operations_per_solved_task_including_failures": 630922.5789473684,
+          "candidate_count": 29676,
+          "false_training_matches": 1
+        },
+        "random": {
+          "runs": 100,
+          "solved": 37,
+          "success_rate": 0.37,
+          "total_charged_operations": 23967896,
+          "aggregate_operations_per_solved_task_including_failures": 647780.972972973,
+          "candidate_count": 29642,
+          "false_training_matches": 1
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 40,
+          "success_rate": 0.4,
+          "total_charged_operations": 23964622,
+          "aggregate_operations_per_solved_task_including_failures": 599115.55,
+          "candidate_count": 30256,
+          "false_training_matches": 1
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 38,
+          "success_rate": 0.38,
+          "total_charged_operations": 23969731,
+          "aggregate_operations_per_solved_task_including_failures": 630782.3947368421,
+          "candidate_count": 29695,
+          "false_training_matches": 1
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 43,
+          "success_rate": 0.43,
+          "total_charged_operations": 23966154,
+          "aggregate_operations_per_solved_task_including_failures": 557352.4186046511,
+          "candidate_count": 30330,
+          "false_training_matches": 2
+        }
+      },
+      "quadratic": {
+        "equal": {
+          "runs": 100,
+          "solved": 50,
+          "success_rate": 0.5,
+          "total_charged_operations": 23975058,
+          "aggregate_operations_per_solved_task_including_failures": 479501.16,
+          "candidate_count": 29676,
+          "false_training_matches": 0
+        },
+        "random": {
+          "runs": 100,
+          "solved": 54,
+          "success_rate": 0.54,
+          "total_charged_operations": 23967896,
+          "aggregate_operations_per_solved_task_including_failures": 443849.9259259259,
+          "candidate_count": 29642,
+          "false_training_matches": 0
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 64,
+          "success_rate": 0.64,
+          "total_charged_operations": 23970452,
+          "aggregate_operations_per_solved_task_including_failures": 374538.3125,
+          "candidate_count": 29849,
+          "false_training_matches": 0
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 50,
+          "success_rate": 0.5,
+          "total_charged_operations": 23973343,
+          "aggregate_operations_per_solved_task_including_failures": 479466.86,
+          "candidate_count": 29662,
+          "false_training_matches": 0
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 67,
+          "success_rate": 0.67,
+          "total_charged_operations": 23964189,
+          "aggregate_operations_per_solved_task_including_failures": 357674.46268656716,
+          "candidate_count": 29742,
+          "false_training_matches": 0
+        }
+      },
+      "piecewise": {
+        "equal": {
+          "runs": 100,
+          "solved": 63,
+          "success_rate": 0.63,
+          "total_charged_operations": 23975058,
+          "aggregate_operations_per_solved_task_including_failures": 380556.4761904762,
+          "candidate_count": 29676,
+          "false_training_matches": 10
+        },
+        "random": {
+          "runs": 100,
+          "solved": 59,
+          "success_rate": 0.59,
+          "total_charged_operations": 23967896,
+          "aggregate_operations_per_solved_task_including_failures": 406235.5254237288,
+          "candidate_count": 29642,
+          "false_training_matches": 10
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 85,
+          "success_rate": 0.85,
+          "total_charged_operations": 23970100,
+          "aggregate_operations_per_solved_task_including_failures": 282001.17647058825,
+          "candidate_count": 30712,
+          "false_training_matches": 14
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 63,
+          "success_rate": 0.63,
+          "total_charged_operations": 23967814,
+          "aggregate_operations_per_solved_task_including_failures": 380441.49206349207,
+          "candidate_count": 29722,
+          "false_training_matches": 10
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 83,
+          "success_rate": 0.83,
+          "total_charged_operations": 23967412,
+          "aggregate_operations_per_solved_task_including_failures": 288764.0,
+          "candidate_count": 30778,
+          "false_training_matches": 13
+        }
+      },
+      "modular": {
+        "equal": {
+          "runs": 100,
+          "solved": 67,
+          "success_rate": 0.67,
+          "total_charged_operations": 23975058,
+          "aggregate_operations_per_solved_task_including_failures": 357836.6865671642,
+          "candidate_count": 29676,
+          "false_training_matches": 6
+        },
+        "random": {
+          "runs": 100,
+          "solved": 69,
+          "success_rate": 0.69,
+          "total_charged_operations": 23967896,
+          "aggregate_operations_per_solved_task_including_failures": 347360.8115942029,
+          "candidate_count": 29642,
+          "false_training_matches": 7
+        },
+        "salary": {
+          "runs": 100,
+          "solved": 75,
+          "success_rate": 0.75,
+          "total_charged_operations": 23974708,
+          "aggregate_operations_per_solved_task_including_failures": 319662.7733333333,
+          "candidate_count": 29569,
+          "false_training_matches": 7
+        },
+        "cost_ucb": {
+          "runs": 100,
+          "solved": 67,
+          "success_rate": 0.67,
+          "total_charged_operations": 23966117,
+          "aggregate_operations_per_solved_task_including_failures": 357703.2388059702,
+          "candidate_count": 29645,
+          "false_training_matches": 6
+        },
+        "explore_commit": {
+          "runs": 100,
+          "solved": 98,
+          "success_rate": 0.98,
+          "total_charged_operations": 23957496,
+          "aggregate_operations_per_solved_task_including_failures": 244464.24489795917,
+          "candidate_count": 27747,
+          "false_training_matches": 14
+        }
+      }
+    }
+  },
+  "protocol_sha256": "0bd3176bf3be899bd84abd278768181d576e503a9708ed5e538f2dbebad8aa3a",
+  "frozen_benchmark_sha256": "e46835736fe3f16f374862266706ca7e1c19efdba6ce4ec13b4e3897e358450a",
+  "confirmatory_harness_sha256": "290476f2e6b49d54d09252d3ba31eb79671b5bcce7fa87db7a0d7c9e881a874b",
+  "configuration": {
+    "seed_start": 10000,
+    "seed_end_inclusive": 10099,
+    "budgets": [
+      40000,
+      120000,
+      240000
+    ],
+    "families": [
+      "affine",
+      "quadratic",
+      "piecewise",
+      "modular"
+    ],
+    "policies": [
+      "equal",
+      "random",
+      "salary",
+      "cost_ucb",
+      "explore_commit"
+    ],
+    "runs": 6000,
+    "primary_control": "explore_commit"
+  },
+  "original_result_sha256": {
+    "summary.json": "53814dd21f3b8ff51fb9013cb74ecb5c8bf4f5713bb2e243c2318f9678e5d8ab",
+    "witnesses.json": "c508a782b61ef90f662d68851a82c8d5ae84d6ba38f7c4821b95e70fd19cf546",
+    "runs.csv": "9ada8765b259faf500702dbbb86b67bf5d5c1eb3d333c8fd9dcc2297859c0b6e",
+    "RESULTS.original.md": "e5e78205d408d30ab8a341e65a3c747d35763103d51a2a7e8136433bf817186c",
+    "RESULTS.md": "dd0c81b812beec22821ddf8cf0ed98682ac1042837a5fa029fc46b5490dae65c",
+    "workers.csv": "ba114e5de38023a599a279ab7114adfaac36a4b0cbbaaebc106f5f8ea10cc6a6",
+    "summary.original.json": "8e6be0d8c41bab943e2593278ccc9dd738addc8234b2396b8461c43950b16559",
+    "execution_implementation.py": "f7e5ef33e92502a5f4bae7626e12f0bf81c2ea2b1745ceb015eea74d651b98b6"
+  },
+  "original_results_unchanged": true,
+  "elapsed_seconds": 67.28614812437445,
+  "deviations": [],
+  "outcome": "Discovery of any independently verified correct candidate, not final policy selection",
+  "successful_witnesses": 2226,
+  "raw_file_sha256": {
+    "runs.csv": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+    "workers.csv": "ea0dd93d84d1197974cf50a83af823787833ac260c51c17441eb08c96a3757cf",
+    "witnesses.jsonl": "aad0f930ff0adb0cbbced8a3fe86a29d1861a91a6c67244c5a5b5b9e8647173d"
+  }
+}

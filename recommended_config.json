@@ -1,0 +1,11 @@
+{
+  "status": "existing development-selected control; not a new winning treatment",
+  "config": {
+    "explore": 0.05,
+    "kind": "ucb",
+    "lease": 1,
+    "name": "ucb"
+  },
+  "evidence": "results/frozen_config.json and results/evaluation.csv",
+  "scope": "synthetic simulator only"
+}

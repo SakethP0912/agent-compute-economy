@@ -1,0 +1,204 @@
+{
+  "primary_control": "ucb",
+  "protocol_sha256": "bdfbf55ca29379422292d0d1b0ef5f0f64927adcf24c4a0e7f9e9ead7c4e31f7",
+  "ranking": [
+    {
+      "mean_completed": 9.711458333333333,
+      "mean_spent": 87.24523333333332,
+      "name": "ucb_0.05"
+    },
+    {
+      "mean_completed": 9.415625,
+      "mean_spent": 87.97809687499998,
+      "name": "salary_milestones_0.5_8"
+    },
+    {
+      "mean_completed": 9.294791666666667,
+      "mean_spent": 89.04154583333333,
+      "name": "single_3"
+    },
+    {
+      "mean_completed": 8.916666666666666,
+      "mean_spent": 88.07739270833332,
+      "name": "ucb_0.2"
+    },
+    {
+      "mean_completed": 8.634375,
+      "mean_spent": 89.76135000000001,
+      "name": "single_2"
+    },
+    {
+      "mean_completed": 8.608333333333333,
+      "mean_spent": 90.06641666666665,
+      "name": "single_1"
+    },
+    {
+      "mean_completed": 8.463541666666666,
+      "mean_spent": 90.71380572916667,
+      "name": "single_0"
+    },
+    {
+      "mean_completed": 8.335416666666667,
+      "mean_spent": 89.77475781249998,
+      "name": "salary_milestones_0.5_16"
+    },
+    {
+      "mean_completed": 8.272916666666667,
+      "mean_spent": 89.79258437499998,
+      "name": "salary_0.5_16"
+    },
+    {
+      "mean_completed": 8.047916666666667,
+      "mean_spent": 89.87128177083332,
+      "name": "salary_0.5_8"
+    },
+    {
+      "mean_completed": 7.408333333333333,
+      "mean_spent": 90.72704843749999,
+      "name": "ucb_0.5"
+    },
+    {
+      "mean_completed": 6.457291666666666,
+      "mean_spent": 92.95218750000002,
+      "name": "fixed_blocks_8"
+    },
+    {
+      "mean_completed": 5.61875,
+      "mean_spent": 92.83700572916665,
+      "name": "salary_0.75_16"
+    },
+    {
+      "mean_completed": 5.410416666666666,
+      "mean_spent": 92.72638645833331,
+      "name": "salary_milestones_0.75_8"
+    },
+    {
+      "mean_completed": 5.33125,
+      "mean_spent": 92.76034791666665,
+      "name": "salary_milestones_0.75_16"
+    },
+    {
+      "mean_completed": 4.965625,
+      "mean_spent": 92.78539322916666,
+      "name": "salary_0.75_8"
+    },
+    {
+      "mean_completed": 4.853125,
+      "mean_spent": 92.9658125,
+      "name": "fixed_blocks_4"
+    },
+    {
+      "mean_completed": 4.652083333333334,
+      "mean_spent": 92.74131093749999,
+      "name": "salary_1.0_16"
+    },
+    {
+      "mean_completed": 4.539583333333334,
+      "mean_spent": 92.84216822916665,
+      "name": "salary_1.0_8"
+    },
+    {
+      "mean_completed": 4.503125,
+      "mean_spent": 92.84916302083332,
+      "name": "salary_milestones_1.0_16"
+    },
+    {
+      "mean_completed": 4.421875,
+      "mean_spent": 92.86020885416666,
+      "name": "salary_milestones_1.0_8"
+    },
+    {
+      "mean_completed": 4.264583333333333,
+      "mean_spent": 93.00114583333334,
+      "name": "fixed_blocks_2"
+    },
+    {
+      "mean_completed": 4.082291666666666,
+      "mean_spent": 92.92697916666668,
+      "name": "round_robin"
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "selected": [
+    {
+      "kind": "round_robin",
+      "name": "round_robin"
+    },
+    {
+      "block": 8,
+      "kind": "fixed_blocks",
+      "name": "fixed_blocks"
+    },
+    {
+      "kind": "single",
+      "name": "single",
+      "worker": 3
+    },
+    {
+      "explore": 0.05,
+      "kind": "ucb",
+      "name": "ucb"
+    },
+    {
+      "kind": "salary",
+      "milestones": false,
+      "name": "salary",
+      "payday": 16,
+      "retention": 0.5
+    },
+    {
+      "kind": "salary",
+      "milestones": true,
+      "name": "salary_milestones",
+      "payday": 8,
+      "retention": 0.5
+    }
+  ],
+  "source_hashes": {
+    "economy/__init__.py": "698164c0a00f06770938b7fa1244b5df909ec95b63057e06745f0cf2bfa030d9",
+    "economy/experiment.py": "0f41de35d8dcd1120a9521cbb571c8df3806a7424377e594b04b7f2f63fab4aa",
+    "economy/policies.py": "93cebdbcf2985092caa4900c68acf222e0d0c1a4a67496a71f1c9a5222606057",
+    "economy/simulator.py": "17fa67ed72462e93ae1af4ccfaa13c298ee64404f73c68add260688d2ee05187"
+  }
+}

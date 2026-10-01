@@ -1,0 +1,55 @@
+{
+  "commands": [
+    "python3 run_all.py --output <empty-replay-directory>",
+    "python3 real_workload/verify_confirmatory.py --output <empty-replay-directory>/confirmatory"
+  ],
+  "full_replay_exit_code": 0,
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "raw_sha256": {
+    "real_workload/confirmatory_results/runs.csv": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+    "real_workload/results/runs.csv": "9ada8765b259faf500702dbbb86b67bf5d5c1eb3d333c8fd9dcc2297859c0b6e",
+    "results/evaluation.csv": "4e4a084026a544c74340267089b905d740222c45c8b28d19b4f3f20cb901fa2b",
+    "sensitivity/results/runs.csv": "a32b4b2be29f722d8ebde6f6ddd676537041b9aebe818f03b592441332d82615"
+  },
+  "retained_raw_evidence_matches": {
+    "real_workload/confirmatory_results/runs.csv": true,
+    "real_workload/results/runs.csv": true,
+    "results/evaluation.csv": true,
+    "sensitivity/results/runs.csv": true
+  },
+  "scope": "Deterministic replay and verification of the retained evidence; not a new independent evaluation set.",
+  "source_sha256": {
+    "economy/__init__.py": "698164c0a00f06770938b7fa1244b5df909ec95b63057e06745f0cf2bfa030d9",
+    "economy/analyze.py": "f1658c9875c4f3bbd382354f6af7e1e3a8b82aa80e808aec81f263d8f92b083f",
+    "economy/experiment.py": "b29ec7e92a44b8ff31611c6068c9a4bfed320918acb85de89c0c1b64e21c532d",
+    "economy/policies.py": "30cc4c934dc26e307bc0c38aa0d5a11e1dd2b1c8039ee491665205d68f38c627",
+    "economy/simulator.py": "a3b003fe28260f795feff19f1ff2a9b4ea8de5ad2cddb764184b953ef4dbed56",
+    "real_workload/benchmark.py": "e46835736fe3f16f374862266706ca7e1c19efdba6ce4ec13b4e3897e358450a",
+    "real_workload/confirmatory.py": "290476f2e6b49d54d09252d3ba31eb79671b5bcce7fa87db7a0d7c9e881a874b",
+    "real_workload/test_benchmark.py": "170c75e5a197b946f5b38b2c836bfec901f03c8ecf43956f7178145188c67f1e",
+    "real_workload/test_confirmatory.py": "1feb80ceedbb523032c99f8590af748bd7f9925f698db89444958314784597da",
+    "real_workload/verify_confirmatory.py": "89fb1223cf3055bf03cf2cb86b3b65ae345abc8628aef1b2e8a3970efb05b8c3",
+    "sensitivity/run_sensitivity.initial.py": "b7e57bae8c3c21d29c96bf3bd298a12961f161844b1babf0c7ff3453cf29f41f",
+    "sensitivity/run_sensitivity.py": "e202323b6c62f0d4e9fd3698924b50eb89c28aa6aca051eb4476464d3da1b7b2",
+    "tests/test_analysis.py": "5fbc954f2c02da61876dc0da336d37a1072536a8926c4fea1e70f7e0b3dbf0e6",
+    "tests/test_simulator.py": "9645ba6fb1e841ee9805677ca3947c1435bf5e39bb82f68affd3cbd962176c9a"
+  },
+  "unit_tests_passed": 25,
+  "validation_date": "2026-10-01",
+  "witness_validation": {
+    "all_budget_ledgers_reconciled": true,
+    "all_statistics_recomputed": true,
+    "original_results_byte_identical": true,
+    "points_per_witness": 81,
+    "raw_file_sha256": {
+      "runs.csv": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+      "witnesses.jsonl": "aad0f930ff0adb0cbbced8a3fe86a29d1861a91a6c67244c5a5b5b9e8647173d",
+      "workers.csv": "ea0dd93d84d1197974cf50a83af823787833ac260c51c17441eb08c96a3757cf"
+    },
+    "raw_runs": 6000,
+    "successful_witnesses_recomputed": 2226,
+    "worker_rows": 24000
+  },
+  "witness_verifier_exit_code": 0
+}

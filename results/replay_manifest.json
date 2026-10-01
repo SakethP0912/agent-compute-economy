@@ -1,0 +1,97 @@
+{
+  "commands": [
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "real_workload",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "economy.experiment",
+      "develop",
+      "--output",
+      "/private/tmp/economy-complete-replay"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "economy.experiment",
+      "freeze",
+      "--output",
+      "/private/tmp/economy-complete-replay"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "economy.experiment",
+      "evaluate",
+      "--output",
+      "/private/tmp/economy-complete-replay"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "-m",
+      "economy.analyze",
+      "--results",
+      "/private/tmp/economy-complete-replay"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "real_workload/benchmark.py",
+      "--output",
+      "/private/tmp/economy-complete-replay/real_workload"
+    ],
+    [
+      "/opt/homebrew/opt/python@3.13/bin/python3.13",
+      "real_workload/confirmatory.py",
+      "--output",
+      "/private/tmp/economy-complete-replay/confirmatory"
+    ]
+  ],
+  "elapsed_seconds": 112.690479000099,
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "retained_raw_evidence_matches": {
+    "real_workload/confirmatory_results/runs.csv": true,
+    "real_workload/results/runs.csv": true,
+    "results/evaluation.csv": true
+  },
+  "sha256": {
+    "analysis.json": "bbb9110a0da05b0fb1c4d0af8ea273c195aaaa5071bcb81c9ecb8eb297720deb",
+    "analysis.md": "88a10ba24033cdac7ee34a8e0f92c930906a51f4ecac2b3ee084a72fb3bff9da",
+    "confirmatory/RESULTS.md": "c8b2a4be3848ccb06b73b17354ca18b416dde2d1bc484a4ea562d6c8592ae4e8",
+    "confirmatory/runs.csv": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+    "confirmatory/summary.json": "91a6f353bcbcf1a1d77a14c3f7d41afce053fded7255794973b5ff20dfcf1787",
+    "confirmatory/witnesses.jsonl": "aad0f930ff0adb0cbbced8a3fe86a29d1861a91a6c67244c5a5b5b9e8647173d",
+    "confirmatory/workers.csv": "ea0dd93d84d1197974cf50a83af823787833ac260c51c17441eb08c96a3757cf",
+    "development.csv": "a225ef68d8394bdfe8eadd6a0b7d6d9e2eac0ebe48c51e11e4dc7743083b26ff",
+    "development_summary.json": "e650288fde6bc3c3d94f5bd9724e016c3774f028a25f693e30d7d6e2bc14ef55",
+    "evaluation.csv": "4e4a084026a544c74340267089b905d740222c45c8b28d19b4f3f20cb901fa2b",
+    "frozen_config.json": "2e4c256aaa50640d1c211315f4402b208514442cef57147b96c789fc435cdc92",
+    "frozen_config.sha256": "dc4b5277b33b2c5601705d099c7f9b50fac0fc6e087b0eb4320624ab6aa18102",
+    "real_workload/RESULTS.md": "0e320d0832fa9142208df979b0cb687ebf4aad96b9f1cca61d6f9559039023c5",
+    "real_workload/runs.csv": "9ada8765b259faf500702dbbb86b67bf5d5c1eb3d333c8fd9dcc2297859c0b6e",
+    "real_workload/summary.json": "5dcfaeb2ab43aa2c69d7f901b876ec5fb208e714c9ed21421575e5cc29926d54",
+    "real_workload/witnesses.json": "c508a782b61ef90f662d68851a82c8d5ae84d6ba38f7c4821b95e70fd19cf546",
+    "real_workload/workers.csv": "ba114e5de38023a599a279ab7114adfaac36a4b0cbbaaebc106f5f8ea10cc6a6",
+    "report.html": "3a3d1fc45306b10c09fed8515494702b4e684ea938e2c9f337128f5a25102b42",
+    "revision_development.csv": "bbf12763e37320e87297b4c118fc2cb90f303053cbc85ea58638a48c9cee79fe",
+    "traces.json": "66b0e831a6896e0d2a48f1242a8e50b1748fcc358800e8abcef7d6e4316277f8"
+  }
+}

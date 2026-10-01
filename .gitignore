@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+results/replay/
+results/my-replay/
+
+# Local transfer receipt contains machine paths and Git internals.
+/DELIVERY_MANIFEST.json
+/submission/

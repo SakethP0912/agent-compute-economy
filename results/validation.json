@@ -1,0 +1,26 @@
+{
+  "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "platform": "macOS-26.4-arm64-arm-64bit-Mach-O",
+  "unit_tests": 25,
+  "replay_elapsed_seconds": 112.690479000099,
+  "exact_raw_matches": {
+    "real_workload/confirmatory_results/runs.csv": true,
+    "real_workload/results/runs.csv": true,
+    "results/evaluation.csv": true,
+    "sensitivity/results/runs.csv": true
+  },
+  "simulation_rows": 85800,
+  "confirmatory_search_rows": 6000,
+  "exploratory_search_rows": 240,
+  "browser_report": {
+    "rendered": true,
+    "scenario_filter": true,
+    "budget_filter": true,
+    "console_errors": 0
+  },
+  "independent_statistical_audit": true,
+  "primary_data_sha256": "4e4a084026a544c74340267089b905d740222c45c8b28d19b4f3f20cb901fa2b",
+  "confirmatory_data_sha256": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+  "sensitivity_rows": 15600,
+  "sensitivity_data_sha256": "a32b4b2be29f722d8ebde6f6ddd676537041b9aebe818f03b592441332d82615"
+}

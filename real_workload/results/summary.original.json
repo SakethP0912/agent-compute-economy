@@ -1,0 +1,201 @@
+{
+  "policies": {
+    "equal": {
+      "runs": 48,
+      "solved": 15,
+      "success_rate": 0.3125,
+      "mean_spent_operations": 119602.75,
+      "median_operations_to_success_conditional_on_success": 25790,
+      "false_training_matches": 1,
+      "per_family": {
+        "affine": {
+          "solved": 1,
+          "runs": 12
+        },
+        "quadratic": {
+          "solved": 2,
+          "runs": 12
+        },
+        "piecewise": {
+          "solved": 4,
+          "runs": 12
+        },
+        "modular": {
+          "solved": 8,
+          "runs": 12
+        }
+      }
+    },
+    "random": {
+      "runs": 48,
+      "solved": 14,
+      "success_rate": 0.2916666666666667,
+      "mean_spent_operations": 119663.41666666667,
+      "median_operations_to_success_conditional_on_success": 23154.0,
+      "false_training_matches": 1,
+      "per_family": {
+        "affine": {
+          "solved": 1,
+          "runs": 12
+        },
+        "quadratic": {
+          "solved": 2,
+          "runs": 12
+        },
+        "piecewise": {
+          "solved": 4,
+          "runs": 12
+        },
+        "modular": {
+          "solved": 7,
+          "runs": 12
+        }
+      }
+    },
+    "salary": {
+      "runs": 48,
+      "solved": 20,
+      "success_rate": 0.4166666666666667,
+      "mean_spent_operations": 119640.47916666667,
+      "median_operations_to_success_conditional_on_success": 33699.5,
+      "false_training_matches": 1,
+      "per_family": {
+        "affine": {
+          "solved": 1,
+          "runs": 12
+        },
+        "quadratic": {
+          "solved": 5,
+          "runs": 12
+        },
+        "piecewise": {
+          "solved": 6,
+          "runs": 12
+        },
+        "modular": {
+          "solved": 8,
+          "runs": 12
+        }
+      }
+    },
+    "cost_ucb": {
+      "runs": 48,
+      "solved": 15,
+      "success_rate": 0.3125,
+      "mean_spent_operations": 119597.79166666667,
+      "median_operations_to_success_conditional_on_success": 24249,
+      "false_training_matches": 1,
+      "per_family": {
+        "affine": {
+          "solved": 1,
+          "runs": 12
+        },
+        "quadratic": {
+          "solved": 2,
+          "runs": 12
+        },
+        "piecewise": {
+          "solved": 4,
+          "runs": 12
+        },
+        "modular": {
+          "solved": 8,
+          "runs": 12
+        }
+      }
+    },
+    "explore_commit": {
+      "runs": 48,
+      "solved": 23,
+      "success_rate": 0.4791666666666667,
+      "mean_spent_operations": 119767.10416666667,
+      "median_operations_to_success_conditional_on_success": 47525,
+      "false_training_matches": 2,
+      "per_family": {
+        "affine": {
+          "solved": 1,
+          "runs": 12
+        },
+        "quadratic": {
+          "solved": 5,
+          "runs": 12
+        },
+        "piecewise": {
+          "solved": 8,
+          "runs": 12
+        },
+        "modular": {
+          "solved": 9,
+          "runs": 12
+        }
+      }
+    }
+  },
+  "salary_paired_comparisons": {
+    "equal": {
+      "wins": 5,
+      "ties": 43,
+      "losses": 0,
+      "success_rate_difference": 0.10416666666666667,
+      "paired_bootstrap_95_interval": [
+        0.020833333333333332,
+        0.1875
+      ]
+    },
+    "random": {
+      "wins": 6,
+      "ties": 42,
+      "losses": 0,
+      "success_rate_difference": 0.125,
+      "paired_bootstrap_95_interval": [
+        0.041666666666666664,
+        0.22916666666666666
+      ]
+    },
+    "cost_ucb": {
+      "wins": 5,
+      "ties": 43,
+      "losses": 0,
+      "success_rate_difference": 0.10416666666666667,
+      "paired_bootstrap_95_interval": [
+        0.020833333333333332,
+        0.1875
+      ]
+    },
+    "explore_commit": {
+      "wins": 4,
+      "ties": 37,
+      "losses": 7,
+      "success_rate_difference": -0.0625,
+      "paired_bootstrap_95_interval": [
+        -0.20833333333333334,
+        0.0625
+      ]
+    }
+  },
+  "protocol_sha256": "2b61095e08ece763dcb1001be5aa767ec70ffdd9ff358957eec685d8ba9c9af9",
+  "implementation_sha256": "f7e5ef33e92502a5f4bae7626e12f0bf81c2ea2b1745ceb015eea74d651b98b6",
+  "configuration": {
+    "seeds": 12,
+    "budget": 120000,
+    "families": [
+      "affine",
+      "quadratic",
+      "piecewise",
+      "modular"
+    ],
+    "policies": [
+      "equal",
+      "random",
+      "salary",
+      "cost_ucb",
+      "explore_commit"
+    ],
+    "training_inputs": 9,
+    "heldout_inputs": 72
+  },
+  "registered_default_run": true,
+  "elapsed_seconds": 2.237,
+  "scope": "Offline deterministic expression search; no LLM performance inference",
+  "deviations": []
+}

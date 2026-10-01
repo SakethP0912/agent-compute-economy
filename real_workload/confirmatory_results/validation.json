@@ -1,0 +1,14 @@
+{
+  "raw_runs": 6000,
+  "worker_rows": 24000,
+  "successful_witnesses_recomputed": 2226,
+  "points_per_witness": 81,
+  "all_statistics_recomputed": true,
+  "all_budget_ledgers_reconciled": true,
+  "original_results_byte_identical": true,
+  "raw_file_sha256": {
+    "runs.csv": "b1429e725056c5b0fccccad7836cd1a02fda97ec7bf891baeefe6533a7df46f5",
+    "workers.csv": "ea0dd93d84d1197974cf50a83af823787833ac260c51c17441eb08c96a3757cf",
+    "witnesses.jsonl": "aad0f930ff0adb0cbbced8a3fe86a29d1861a91a6c67244c5a5b5b9e8647173d"
+  }
+}

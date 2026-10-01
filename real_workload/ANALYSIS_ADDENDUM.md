@@ -1,0 +1,11 @@
+# Analysis correction after independent review
+
+Recorded after the registered benchmark execution, on 2026-09-30. This is an analysis-only correction, not an original preregistered choice. The original `PROTOCOL.md` and its SHA-256 remain unchanged.
+
+The first analysis bootstrapped 48 individual seed/family task differences. Independent review identified dependence: all four families within a seed reuse the same deterministic worker streams. Treating those four observations as independent overstates the independent resampling units.
+
+The corrected analysis resamples the 12 seed clusters with replacement. Each sampled seed retains all four family differences and the salary/control pairing. A replicate averages all 48 differences from its 12 selected clusters. The number of replicates remains 2,000 and the random seed remains 7,621. No outcome, workload, budget, scheduler, reward, or hyperparameter is changed. Point estimates and paired win/tie/loss counts are unchanged; descriptive intervals may change. Only 12 independent seed clusters are available, so these intervals remain limited, exploratory evidence from a constructed workload.
+
+The report also adds aggregate charged operations divided by the number of solved tasks, summing the operations of both successful and failed runs. This metric penalizes failures. It complements the original median cost to discovery conditional on success. Because all benchmark runs continue after discovery, aggregate cost includes the full charged run budget even for successful runs; it is not a proposed stop-on-success deployment estimate. If no task is solved, the ratio is undefined and is recorded as null.
+
+`python3 benchmark.py --reanalyze` reads existing raw artifacts without running candidates. It rewrites only the derived summary/report, checks raw-file hashes before and after, preserves the original execution implementation hash, and records the current analysis implementation hash. The original summary/report and exact execution source are preserved in `results/summary.original.json`, `results/RESULTS.original.md`, and `results/execution_implementation.py`. Tests check cluster alignment and preservation of within-seed family dependence.
