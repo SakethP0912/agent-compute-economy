@@ -67,4 +67,3 @@ The simulator refuses to evaluate if its frozen implementation or protocol has c
 - `real_workload/`: separately preregistered executable search benchmark and results.
 - `sensitivity/`: fresh-seed equal-bookkeeping-cost sensitivity, explicitly exploratory.
 - `research_sources.md`: primary-source prior-art review and product hypotheses.
-

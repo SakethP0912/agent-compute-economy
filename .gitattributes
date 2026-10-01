@@ -1,0 +1,4 @@
+# Preserve exact bytes: recorded experiments verify source and data hashes.
+* -text
+# Python csv.writer uses CRLF for retained raw data.
+*.csv whitespace=cr-at-eol
