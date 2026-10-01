@@ -10,7 +10,7 @@ The result challenged the hypothesis: the revised simulator policy completed 12.
 
 ## Research context
 
-The conceptual starting point is economic selection among agents, closely related to [Economy of Minds](https://arxiv.org/html/2606.02859v1). Adaptive compute-allocation research and budget-aware reasoning evaluation informed the choice of strong baselines and matched budgets. This project tests a simplified salary mechanism with fixed workers, conserved resources, and controlled verification. It does not reproduce those papers or claim that economic allocation itself is new. See the [README research comparison](README.md#research-inspiration-and-what-we-tested-differently) for the papers and the specific differences.
+The conceptual starting point is economic selection among agents, closely related to [Economy of Minds](https://arxiv.org/html/2606.02859v1). Adaptive compute-allocation research and budget-aware reasoning evaluation informed the choice of strong baselines and matched budgets. This project tests a simplified salary mechanism with fixed workers, conserved resources, and controlled verification. It does not reproduce those papers or claim that economic allocation itself is new. See the [README research comparison](README.md#research-inspiration-and-what-i-tested-differently) for the papers and the specific differences.
 
 ## Evidence and interpretation
 
